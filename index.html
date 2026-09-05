@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="confetti"></canvas>
+
+    <!-- Screen 1: Welcome -->
+    <div id="screen1" class="screen active">
+        <div class="content">
+            <h1>Hey babe...</h1>
+            <img src="https://media.tenor.com/KBXvdISx4-kAAAAM/dudu-pat-bubu-dudu.gif" alt="Bubu and Dudu" class="bubu-dudu-gif">
+            <p>I can't believe it's been 2 whole years! <br><br> I made a little something for you to celebrate us.</p>
+            <button id="start-btn" class="glow-on-hover">Open Surprise 💌</button>
+        </div>
+    </div>
+
+    <!-- Screen 2: The Journey -->
+    <div id="screen2" class="screen hidden">
+        <div class="journey-container">
+            <h2 class="title-script fade-in-up">Two years of us...</h2>
+            
+            <div class="memory-card left hidden">
+                <div class="image-wrapper">
+                    <img src="/home/lh-135/.gemini/antigravity/brain/3aa0bca8-fdb9-4a9b-a408-cac66268c4cd/happy_memory_1788508949511.png" alt="Happy Memory">
+                </div>
+                <div class="text-wrapper">
+                    <p>Through our brightest, sunniest days and the endless laughs... Every moment with you feels like magic. I cherish all our late-night talks and the inside jokes only we understand.</p>
+                </div>
+            </div>
+
+            <div class="memory-card right hidden">
+                <div class="image-wrapper">
+                    <img src="/home/lh-135/.gemini/antigravity/brain/3aa0bca8-fdb9-4a9b-a408-cac66268c4cd/moody_memory_1788509096271.png" alt="Moody Memory">
+                </div>
+                <div class="text-wrapper">
+                    <p>And through the storms, bad days, and difficult times... we always stuck together. You are my safe place, and overcoming challenges with you has only made our bond stronger.</p>
+                </div>
+            </div>
+
+            <div class="memory-card left hidden">
+                <div class="image-wrapper">
+                    <img src="https://media.tenor.com/KBXvdISx4-kAAAAM/dudu-pat-bubu-dudu.gif" alt="Bubu and Dudu Pat">
+                </div>
+                <div class="text-wrapper">
+                    <p>Thank you for always being so cool and calm with me... even when I completely boil your blood, hehe! You have the patience of an absolute saint. 🤭</p>
+                </div>
+            </div>
+
+            <div class="memory-card right hidden">
+                <div class="image-wrapper">
+                    <img src="https://media.tenor.com/kOfhJ6VeBIsAAAAM/dudu-bubu.gif" alt="Bubu Dudu Study Motivation">
+                </div>
+                <div class="text-wrapper">
+                    <p>I also want you to know how incredibly proud I am of you. Keep working hard on your studies—you are so smart and capable, and I will always be your biggest cheerleader! 📚✨</p>
+                </div>
+            </div>
+
+
+            <button id="next-btn" class="glow-on-hover hidden">See what's next 💖</button>
+        </div>
+    </div>
+
+    <!-- Screen 3: The Celebration -->
+    <div id="screen3" class="screen hidden">
+        <div class="celebration-container">
+            <h1 class="title-script pulse">Happy 2nd Anniversary!</h1>
+            <img src="https://media.tenor.com/kOfhJ6VeBIsAAAAM/dudu-bubu.gif" alt="Bubu and Dudu Hug" class="bubu-dudu-gif large">
+            <div class="final-image glow">
+                <img src="/home/lh-135/.gemini/antigravity/brain/3aa0bca8-fdb9-4a9b-a408-cac66268c4cd/celebration_anniversary_1788509111896.png" alt="Anniversary Celebration">
+            </div>
+            <p class="final-message">Thank you for 730 days of love, patience, and wonderful memories. Here's to a lifetime more. I love you! ❤️</p>
+            <button id="replay-btn" class="glow-on-hover small">Replay Memories</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
